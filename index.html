@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" conent="width=device-width">
+    <title>Pruebecita</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/jpg" href="./Images/Lagos.JPG">
+    <meta name="description" content="Una prueba sobre
+    lo que voy aprendiendo">
+</head>
+
+<body>
+    <h1>¿Qué puedo poner?</h1>
+    <br />
+
+    <nav>
+        <ul>
+        <a href=#button>Button</a>
+        <a href=#ordenada>Lista ordenada</a>
+        <a href="https://google.com" target="_blank"> Google</a>
+        </ul>
+    </nav><br/>
+
+    <h2>Sé que hay varios <span>"tamaños"</span> de títulos</h2> 
+
+    <h3>Y se hace con una etiqueta que indica el título
+         de la web</h3>
+
+    <h4>Esa etiqueta va con una 'h' y un número, del 1 al 6</h4>
+
+    <h5>Cada una hace un tamaño de título o subtítulo o
+         subsub...título</h5>
+
+    <h6>De mayor a menor</h6>
+
+    <p>Básicamente estoy haciendo lo mismo que en la app y
+         uno de youtube.</p>
+
+    <p>Y estas líneas ya serían la parte de texto, 
+        y su etiqueta es 'p'.</p>
+
+    <p>Acabo de aprender que para hacer una separación entre
+         textos con una línea, se añade 'hr'.</p>
+    <hr />
+
+    <p id="grande">Y esto se llama etiqueta vacía porque no tiene etiqueta 
+        de cierre, estos términos los aprendí en la app.</p>
+        
+    <p>Y si quiero dar un salto de línea en el texto, uso 'br'<br>
+    y esto se vería así. (Si se pone doble etiqueta, da doble salto).</p>
+
+    <a href="https://google.com"><button>Puedo añadir un botón también</button></a>
+
+    <h4 id="button"><u>El botón</u></h4>
+
+    <p>El botón se hace con 'button' y más adelante se le puede dar forma, color, bordes...
+    <br> Al igual que a las imágenes, y todo esto se hace con CSS siguiendo unas reglas.</p>
+
+    <p>Si quieres poner en cursiva el texto, <em>usa 'em'.</em>
+
+    <br>
+
+    Por el <strong>contrario</strong> si quieres ponerlo en negrita, 
+    <a href="https://diccionario.reverso.net/ingles-espanol/strong"><strong>usa 'strong'.</strong>
+    </a></p>
+   
+    <a href="www.google.com">Pincha aquí</a>
+
+    <br>
+
+    <div id="caja">
+    <img id="lagos" src="./Images/Lagos.JPG" width="400" alt="Lagos de covadonga" />
+    </div>
+
+    <br>
+
+    <img id="kivis" 
+    src="https://pbs.twimg.com/media/GSZwPSTWkAAM-mx?format=jpg" 
+    width="400" alt="Kivis de ot23"/>
+
+    <br>
+
+    <img id="arbol" src="./Images/Árbol.JPG" width="500" alt="arbol otoño" />
+
+    <p>Eres lo más bonito de mi vida <3</p>
+
+    <p>Se puede hacer una lista no ordenada con la 'ul', pero dentro de 'ul':</p>
+
+    <ul>
+        <li>Debe usarse otra etiqueta.</li>
+        <li>Que será 'li'.</li>
+        <li>Aunque he probado a juntar los puntos y no he podido.</li>
+        <li>Pero si quito el text-aling, si queda bien.</li>
+    </ul>
+
+    <p id="ordenada">Por el contrario una lista <u>ordenada</u> se haría con 'ol' y dentro iría del mismo
+        modo la etiqueta 'li' porque hace referencia a la lista:
+        <ol>
+            <li>Y se vería así.</li>
+            <li>Ordenada con números.</li>
+            <li>Y cada punto con su 'li'.</li>
+        </ol>
+    </p>
+
+
+    <p>Para escribir comentarios en el código se usa '!--comment--' 
+        entre los signos <>.</p>
+        <!--Quiero dejar un comentario, entonces uso esto-->
+
+   
+    <p>Acabo de añadir la foto de los lagos a la pestaña, y esto se hace en la etiqueta 
+        de 'head' con otra etiqueta que es 'link' porque enlaza a la ubicación de 
+        la imagen.<br> Al igual que el CSS va con 'link' también.</p>
+
+    <small>Usando la 'small' se hace la letra más pequeña, y es como una info
+        secundaria.</small>
+
+    <section>
+        <p>Como ahora sé que existe la etiqueta section, el formulario 
+            lo haré dentro de aquí para que esté mejor estructurado.
+        </p>
+
+        <h4>Rellena</h4>
+
+    <form method="post" action="/">
+       <fieldset>
+            <legend>Aquí va el titulito, con 'legend'</legend>
+                <label >Nombre:
+                    <input type="text" name="name" placeholder="Tu nombre"
+                        required>
+                </label>
+            <br>
+
+                 <label>Email:
+                    <input type="email" name="email" 
+                        placeholder="example@gmail.com" required>
+                </label>
+            <br>
+
+                <label>Fecha:
+                    <input type="datetime-local" required>
+                </label>
+            <br>
+
+                <label>Teléfono:
+                    <input type="tel" name="phone" required>
+                </label>
+        </fieldset>
+
+            <button>Enviar</button>
+        </form>
+    </section>
+
+    <p>También se pueden añadir vídeos usando la etiqueta 'video'/ 
+        añadiendo la src para insertar la url, los controles con la
+        etiqueta 'controls', y autoplay y muted para lo que se entiende.</p>
+    
+    <p>La etiqueta 'audio'/ añade un audio.</p>
+    
+    <p>Y si queremos incrustar otra web, añadimos 'iframe'/</p>
+     
+    <p>Hasta aquí el tuto de Midou...</p>
+        
+        
+</body>
+
+<footer>
+    <p>Copyright @ 2024 - Esto sería el pie de página y se añade con 'footer'.</p>
+    <a href="mailto:nazaretgutirrezmartn@gmail.com">¡Escríbeme!</a>
+</footer>
+
+</html>
