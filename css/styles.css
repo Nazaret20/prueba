@@ -42,4 +42,47 @@
     background-color: rgb(233, 223, 192);
  }
 
+ .container {
+   width: 200px;
+   height: 100px;
+   background-color: rgb(214, 188, 238);
+   padding: 20px;
+   border-radius: 5px;
+   border: 5px solid white;
+   font-size: 30px;
+   overflow: auto;
+   
+ }
+.cajapadre {
+   width: 300px;
+   height: 300px;
+   background-color: rgb(81, 177, 81);
+   border: 5px solid rgb(117, 49, 18);
+   position: relative;
+}
 
+.cajahijo {
+   width: 80px;
+   height: 80px;
+   background-color: white;
+   font-weight: bold;
+   position: absolute;
+   inset: 0; /* esto hace conjunto de top, bottom, left, right*/
+   margin: auto;
+}
+
+.insta {
+   width: 60px;
+   background-color: white;
+   border-radius: 50px;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+}
+
+.whats {
+   width: 60px;
+   position: fixed;
+   bottom: 70px;
+   right: 0;
+}
