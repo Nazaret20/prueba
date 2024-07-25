@@ -1,11 +1,11 @@
-img#lagos { 
+.lagos { 
     border: 2px solid royalblue;
     box-shadow:  25px 30px 10px 5px rgba(218, 218, 218, 0.81);
  }
- img#kivis {
+ .kivis {
      border: 4px solid palevioletred;
  }
- img#arbol {
+ #arbol {
      border-radius: 25px 0;
      border: 5px outset rgb(255, 187, 187);
  }
@@ -42,7 +42,4 @@ img#lagos {
     background-color: rgb(233, 223, 192);
  }
 
- p#grande {
-    font-size: 30px;
- }
 
